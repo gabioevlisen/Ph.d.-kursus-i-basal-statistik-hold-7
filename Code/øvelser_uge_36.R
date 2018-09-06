@@ -59,6 +59,10 @@ m + 2*sdm
 m - 2*sdm
 m
 
+plot(x = wr$wright_mini_gennemsnit, y = wr$wright_mini_diff, ylim = c(-100, 100))
+abline((m+2*sdm),0, lws = 2)
+abline((m-2*sdm),0, lwd = 2)
+
 # Opgave 7
 
 
